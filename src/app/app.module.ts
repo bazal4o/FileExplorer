@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FileExplorerComponent } from './file-explorer/file-explorer.component';
 import { FileExplorerModule } from './file-explorer/file-explorer.module';
 import { OverlayModule } from '@angular/cdk/overlay';
 import { MatMenuModule, MatCardModule } from '@angular/material';
