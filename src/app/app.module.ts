@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { FileExplorerComponent } from './file-explorer/file-explorer.component';
 import { FileExplorerModule } from './file-explorer/file-explorer.module';
 import { OverlayModule } from '@angular/cdk/overlay';
-import { MatMenuModule } from '@angular/material';
+import { MatMenuModule, MatCardModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -17,6 +17,7 @@ import { MatMenuModule } from '@angular/material';
     FileExplorerModule,
     OverlayModule,
     MatMenuModule,
+    MatCardModule,
     AppRoutingModule    
   ],
   providers: [],

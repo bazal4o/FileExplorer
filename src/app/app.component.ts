@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { FileElement } from './file-explorer/model/FileElement';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'FileExplorer';
+  fileElements: Observable<FileElement[]>;
+  currentRoot: FileElement;
+  currentPath: string;
+  canNavigateUp = false;
 }
